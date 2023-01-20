@@ -1,0 +1,23 @@
+{
+    "name": "cr-decksniper",
+    "version": "1.0.0",
+    "description": "Clash Royale Deck Sniper Utility",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "dev": "ts-node src/index.ts",
+        "testbuild": "npm run build && npm start",
+        "test": "ts-node test/test.ts"
+    },
+    "author": "Mushy",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^16.11.8",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.5.2"
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "fastest-levenshtein": "^1.0.12"
+    }
+}
